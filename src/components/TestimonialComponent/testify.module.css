@@ -1,0 +1,134 @@
+.testify_secection_container {
+  width: 100%;
+  /* height: 70vh; */
+  background-color: #ccdad1;
+  padding: 64px, 121px, 64px, 121px;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.testimonaildeatils_flex {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  justify-content: center;
+  padding: 2rem;
+  align-items: center;
+  flex-wrap: wrap;
+  /* background-color: blue; */
+}
+.carousel_slider{
+  background-color: red;
+  width: 50%;
+  
+}
+.next_prev{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: -120px;
+  gap: 370px;
+}
+.mobileViewTestimonial{
+  display: none;
+}
+
+.info_box {
+  width: 370px;
+  border: 1px solid black;
+  height: 236px;
+  padding: 27px, 18px, 27px, 18px;
+  border-radius: 8px;
+  background-color: #fafcff;
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 auto;
+  /* opacity: 0; */
+  /* transition: opacity 0.5s ease; */
+}
+.active_info_box{
+  opacity: 1;
+}
+.persondetails_box {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+
+  /* justify-content: center; */
+  gap: 15px;
+}
+.titleh1 h1 {
+  color: #0a0f29;
+  font-family: "Plus Jakarta Sans";
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.infoStyle h1 {
+  font-family: "Plus Jakarta Sans";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0em;
+}
+.infoStyle p {
+  font-family: "Plus Jakarta Sans";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+}
+
+.reviews_info p {
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: "justified";
+  padding: 1rem;
+}
+.sliderbar {
+  width: 10px;
+  border-radius: 100px;
+  height: 10px;
+  background-color: #0a0f29;
+  cursor: pointer;
+}
+.slide_dots{
+  position: relative;
+  top: 20px;
+  display: flex;
+  gap: 5px;
+}
+.active{
+  background-color: grey;
+}
+@media screen and (max-width: 760px) {
+  .info_box{
+    /* background-color: red; */
+    width: 100%;
+    height: 100%;
+  }
+  .testimonaildeatils_flex{
+    display: none;
+  }
+  .mobileViewTestimonial{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  /* background-color: blue; */
+  }
+  .hide_box{
+    display: none;
+  }
+}

@@ -1,0 +1,254 @@
+.main {
+    
+    width: 100%;
+    height: 100vh;
+    background-image: url('../asset/bg.jpg');
+    background-size: cover; /* Ensures the background image covers the entire container */
+    background-position: center; /* Centers the background image */
+    border: 0.1px solid rgb(255, 255, 255);
+    justify-content: center;
+}
+
+
+.loginContainer {
+    width: 70%;
+    height: 90vh;
+    margin: 30px 200px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    
+}
+
+.formContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 561.65px;
+  height: 90vh;
+  /* background-color: red; */
+  
+  margin-left: 50px;
+}
+
+
+
+.form_header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: 60px;
+  /* background-color: red; */
+
+}
+
+.title {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 700px;
+  font-family: var(--font-family);
+
+}
+
+.subTitle {
+  color: #000000;
+  font-size: 15px;
+  font-weight: 400px;
+  font-family: var(--font-family);
+}
+
+.form {
+    height: 90vh;
+    width: auto;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+  /* background-color: red; */
+
+}
+
+
+
+.formInput {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  height: 50px;
+  background-color: #eaeaea;
+  border-radius: 6px;
+}
+
+.formInput input {
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #797979;
+  font-size: 12px;
+  padding-left: 10px;
+  width: 480px;
+}
+
+.formInput ::placeholder {
+  font-size: 12px;
+  font-stretch: normal;
+  font-weight: 400px;
+}
+
+label {
+  color: black;
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+  font-size: 12px;
+  font-style: normal;
+  font-family: var(--font-family);
+  font-weight: 400px;
+  font-stretch: normal;
+  /* background-color: red; */
+}
+
+.ctaLogin {
+  color: #000000;
+  height: auto;
+  text-align: center;
+  font-size: 12px;
+  font-family: var(--font-family);
+  font-weight: 700px;
+  width: 130px;
+  height: 35px;
+  margin: 25px 120px;
+  background: transparent;
+  cursor: pointer;
+  border: 1px solid rgba(204, 218, 209, 1);
+  border-radius: 10px;
+}
+
+.forgotPasswd {
+  color: rgba(10, 15, 41, 1);
+  text-align: center;
+  font-size: 13px;
+  font-style: normal;
+  margin-left: -40px;
+  font-family: var(--font-family);
+  font-weight: 400px;
+  font-stretch: normal;
+}
+
+/* login-type starts*/
+.loginType {
+  gap: 20px;
+  display: flex;
+  padding: 15px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  display: flex;
+ 
+  padding-left: 1px;
+
+}
+
+.Google,
+.Facebook,
+.Linkedin {
+  gap: 8px;
+  width: 120px;
+  height: 40px;
+  display: flex;
+  padding: 3px;
+  flex-shrink: 0;
+  border-color: rgba(217, 217, 217, 1);
+  border-style: solid;
+  border-width: 0.9px;
+  border-radius: 5px;
+  justify-content: center;
+  background: transparent;
+}
+
+.loginType img {
+  width: 25px;
+  height: 25px;
+  margin-top: 4px;
+}
+
+.Google,
+.Facebook,
+.Linkedin {
+  color: #000000;
+  
+  text-align: left;
+  line-height: 35px;
+  font-size: 12px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+/* login-type ends*/  
+
+.CreateAccount {
+    color: #000000;
+    text-align: center;
+    font-size: 12px;
+    font-family: var(--font-family);
+    font-weight: 700px;
+    width: 200px;
+    height: 50px;
+    margin: 5px 85px;
+    background: orange;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+  }
+
+ .loginImage > img {
+     width: auto;
+     height: 90vh;
+     background-color: rgb(255, 239, 209);
+
+ }
+ @media screen and (max-width: 760px) {
+  .main { 
+    width: 100vw;
+    /* background-color: red; */
+     
+  }
+  .loginImage{
+    display: none;
+    
+  }
+  .label {
+    position: relative;
+    right: 143px;
+  }
+  .label1 {
+    position: relative;
+    right: 150px;
+  }
+  
+  .form_header {
+    align-items: center;
+  }
+  .loginContainer {
+    width: 100vw;
+    height: 100%;
+    margin: 0px;
+  }
+  .formContainer {
+    
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    margin-left: 0px;
+  
+  }
+  .form{
+    align-items: center;
+  }
+  .formInput {
+    width: 350px;
+    /* background-color: red; */
+  }
+
+ }

@@ -1,0 +1,135 @@
+.testimonaildeatils_flex {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  height: 100vh;
+  gap: 80px;
+  justify-content: center;
+
+  align-items: center;
+  /* background-color: blue; */
+}
+.info_box {
+  /* background-color: blue; */
+  width: 359px;
+  height: 690px;
+  padding: 27px 18px 27px 18px;
+  border-radius: 8px;
+  background-color: #fafcff;
+  border-radius: 8.609999656677246px;
+  border: solid 2.5799999237060547px #ff8500;
+}
+.hide_info{
+  display: none;
+}
+.persondetails_box {
+  /* background-color: #ff8500; */
+  padding: 1rem;
+}
+.persondetails_basic {
+  background: #ccdad1;
+  width: 120px;
+  height: 34.33px;
+  border-radius: 5.166666507720947px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #0a0f29;
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 5px;
+}
+.infoStyle {
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  color: #0a0f29;
+}
+.reviews_info h1 {
+  font-family: "Plus Jakarta Sans";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+}
+.reviews_info p {
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+
+.reviews_benefits ul {
+  list-style: none;
+}
+.reviews_benefits li {
+  margin-top: 10px;
+  font-family: "Plus Jakarta Sans";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.alignItems {
+  margin-bottom: 12%;
+  background-color: #0a0f29;
+  color: white;
+  border: 2.58px solid #000b6b;
+}
+.aligncolors p {
+  color: white;
+}
+
+.badge {
+  background-color: #c9fad6;
+  color: #1aa703;
+  width: 67.61px;
+  height: 19.5px;
+  border-radius: 3.44px;
+  text-align: center;
+
+  font-family: "Poppins";
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+}
+.iconbars {
+  color: white;
+  background-color: red;
+  border-radius: 50%;
+}
+.mobileView_container{
+  display: none;
+}
+.sliderbar {
+  width: 10px;
+  border-radius: 100px;
+  height: 10px;
+  background-color: #0a0f29;
+  cursor: pointer;
+}
+.slide_dots{
+  display: flex;
+  gap: 15px;
+}
+.active{
+  background-color: grey;
+}
+@media screen and (max-width: 760px) {
+  .testimonaildeatils_flex{
+    display: none;
+  }
+  .mobileView_container{
+    display: flex;
+    flex-direction: column;
+  }
+}

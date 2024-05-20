@@ -1,0 +1,65 @@
+.our_services_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 2000px;
+    /* border: 1px solid black; */
+}
+.our_services_section{
+    width: 1276px;
+    height: 1600px;
+    display: flex;
+    /* gap: 100px; */
+    flex-direction: column;
+    align-items: center;
+}
+.our_services_section h1{
+    font-family: "Plus Jakarta Sans";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+
+}
+.our_services_container{
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+    width: 1276px;
+    height: 1741px;
+}
+.our_services{
+    border: 2px solid rgba(10, 15, 41, 0.4);
+    width: 301px;
+    height: 327px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding-left: 30px;
+    
+}
+.our_services h3{
+    /* border: 1px solid black; */
+    width: 243px;
+    font-family: "Plus Jakarta Sans";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+}
+@media screen and (max-width: 760px) {
+    .our_services_main{
+        display: none;
+    }
+        
+}
+

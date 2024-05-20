@@ -1,0 +1,269 @@
+.contactpageDetail_container {
+  position: absolute;
+  top: 65%;
+  left: 28%;
+  transform: translate(-50%, -50%);
+  /* background-color: blue; */
+  width: 45%;
+  height: 60vh;
+  padding: 1rem;
+}
+.contactPage_info h1 {
+  font-family: "Plus Jakarta Sans";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  color: white;
+}
+.education {
+  margin-top: 5px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  color: white;
+}
+
+.ContactSectionContainer {
+  gap: 40px;
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  /* border: 1px solid black; */
+  padding: 80px 300px;
+  position: relative;
+  align-items: flex-start;
+  background-color: white;
+}
+
+.sectionHeader {
+  top: 45px;
+  left: 80px;
+  width: 90%;
+  height: auto;
+  position: absolute;
+  text-align: center;
+  line-height: 48px;
+  font-size: 40px;
+  font-style: normal;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 700;
+  color: Gray;
+  /* border: 1px solid black; */
+
+}
+
+.contactFormHeader {
+  gap: 15px;
+  width: 500px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+
+.title {
+  color: #000000;
+  font-size: 30px;
+  font-weight: 700px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.SubTitle {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 400px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.innerWrapper {
+  gap: 10px;
+  top: 100px;
+  left: 60px;
+  width: 90%;
+  height: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+  border: 1px solid black;
+  /* background-color: red; */
+
+}
+
+.ContactContainer {
+  gap: 32px;
+  width: 592px;
+  height: 750px;
+  display: flex;
+  padding: 40px;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-shrink: 0;
+  background-color: rgba(224, 230, 226, 0.3);
+  border-radius: 10px;
+  /* background-color: red; */
+
+}
+
+.form {
+  width: 500px;
+  height: 523px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.formInput {
+  display: flex;
+  align-items: center;
+  margin: 10px 0 10px 0;
+  width: 480px;
+  height: 50px;
+  background-color: #ffffff;
+  border: 1px solid rgb(128, 128, 128);
+  border-radius: 6px;
+}
+
+.formInput input {
+  height: 50px;
+  width: 400px;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #797979;
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+.formInnput ::placeholder {
+  font-size: 15px;
+  padding-left: 10px;
+  font-stretch: normal;
+  font-weight: 400px;
+}
+
+.label {
+  color: black;
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+  font-style: 18px;
+  font-style: normal;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+
+
+.map_container {
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+
+.accordionSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+@media screen and (max-width: 760px) {
+  .contactpageDetail_container {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    width: 100%;
+  }
+  .ContactSectionContainer {
+    gap: 40px;
+    flex-basis: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    /* background-color: orange; */
+    padding: 0px;
+  }
+  .ContactContainer{
+    height: 100vh;
+    width: 100%;
+    /* background-color: red; */
+  }
+  .innerWrapper {
+    /* gap: 136px; */
+    top: 100px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sectionHeader {
+    width: 100%;
+    top: 45px;
+    left: 0px;
+    text-align: center;
+    /* background-color: red; */
+
+  }
+  .form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 0px;
+    align-items: flex-start;
+    flex-shrink: 0;
+
+  }
+  .formInput {
+    width: 100%;
+    height: 50px;
+    background-color: #ffffff;
+    border: 1px solid rgb(128, 128, 128);
+    border-radius: 6px;
+    /* background-color: red; */
+
+  }
+  .accordionHeader{
+    margin-bottom: 20px;
+  }
+  .accordionHeader .title{
+    font-size: 25px;
+    font-weight: 700;
+  }
+  
+  .formInput input {
+    width: 100%;
+  }
+  .contactFormHeader {
+    gap: 15px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    flex-direction: column;
+  }
+  .map_container{
+    margin-top: 140%;
+  }
+  .accordionSection{
+    /* background-color: red; */
+    width: 100%;
+
+
+  }
+  
+  
+ 
+}

@@ -1,0 +1,135 @@
+.Pricingpage_container_input {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: saddlebrown;
+}
+
+.Pricingpage_container_input h1 {
+  font-family: "Plus Jakarta Sans";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #0a0f29;
+  /* background-color: #0a0f29; */
+}
+.payment_method {
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #0a0f29;
+}
+.Pricingpage_container_getstartd p {
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 20px;
+  color: #0a0f29;
+}
+.payment_method_cardpara {
+  font-family: "Plus Jakarta Sans";
+  font-size: 12px;
+  font-weight: 100;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 20px;
+  color: wheat;
+}
+.Pricingpage_container_getstartd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+
+  width: 510px;
+  height: 86px;
+  gap: 40px;
+  padding: 19xp 143px 19px 143px;
+  margin-bottom: 20px;
+  border-radius: 8.61111068725586px;
+}
+.pricing_container {
+  width: 100%;
+  /* background-color: blue; */
+  height: 130vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.AboutpageDetail_container {
+  position: absolute;
+  top: 75%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  /* background-color: blue; */
+  width: 30%;
+  height: 40vh;
+  padding: 1rem;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+.AboutPage_info h1 {
+  font-family: "Plus Jakarta Sans";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  color: white;
+  text-align: center;
+  margin-left: 20px;
+}
+.payment_method_cardpara1 {
+  font-family: "Plus Jakarta Sans";
+  font-size: 12px;
+  font-weight: 100;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 20px;
+  color: wheat;
+  width: 313px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.togglebutton {
+  width: 316.65px;
+  height: 34.17px;
+  border-radius: 3.444444417953491px;
+  border: 0.8611111044883728px;
+  background-color: #0a0f29;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 0.86px solid #0a0f29;
+}
+.togglebutton button {
+  width: 159.17px;
+  height: 34px;
+  border: none;
+  cursor: pointer;
+}
+@media screen and (max-width: 760px) {
+ 
+  .Pricingpage_container_input h1{
+    width: 100vw;
+  }
+  .Pricingpage_container_getstartd {
+    width: 100vw;
+  }
+}

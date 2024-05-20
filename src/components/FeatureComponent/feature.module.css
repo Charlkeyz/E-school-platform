@@ -1,0 +1,172 @@
+.features_container {
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* background-color: orangered; */
+
+  padding: 2rem;
+}
+.features_container_classroom {
+  display: flex;
+  
+  gap: 40px;
+  /* background-color: brown; */
+  padding: 2rem;
+}
+.features_class {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 2rem;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.classroom_h2 {
+  font-family: "Plus Jakarta Sans";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #0a0f29;
+  /* background-color: red; */
+}
+.classroom_desc {
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #0a0f29;
+}
+.cardDetails {
+  display: flex;
+  gap: 20px;
+  /* flex-wrap: wrap; */
+  /* align-items: center;
+  justify-content: center; */
+
+  padding: 1rem;
+  /* background-color: blue; */
+}
+.Feature2_container_flex {
+  display: flex;
+  gap: 49px;
+  align-items: center;
+
+  padding: 2rem;
+  background-color: yellow;
+  width: 100%;
+}
+.Feature2_container_flex_h2 {
+  margin-bottom: 20px;
+
+  font-family: "Plus Jakarta Sans";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+}
+.Feature2_container_flex_des {
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  margin-bottom: 20px;
+}
+
+.features_classroom_Line {
+  width: 120px;
+  height: 7px;
+  margin-bottom: 15px;
+  background-color: #ccdad1;
+}
+.features_classroom_Line2 {
+  width: 120px;
+  height: 7px;
+  top: 10%;
+  left: 70%;
+  position: relative;
+  background-color: #ccdad1;
+}
+.featuereene {
+  width: 75%;
+  height: 55vh;
+  padding: 1rem;
+  /* background-color: red; */
+}
+/* .imgfeatures2 {
+  width: 50%;
+  background-color: blue;
+} */
+.imgfeaturesimg {
+  width: 60%;
+}
+@media screen and (max-width: 760px) {
+  .features_container_classroom {
+    height: auto;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+    flex-wrap: wrap;
+  }
+
+  .classroom_desc {
+    margin-bottom: 20px;
+  }
+  .Feature2_container_flex {
+    background-color: #0a0f29;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .features_classroom_Line,
+  .features_classroom_Line2 {
+    width: 100px;
+    height: 5px;
+    /* margin-bottom: 15px; */
+    background-color: #ccdad1;
+  }
+  .classroom_h2{
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 15px;
+    letter-spacing: 0em;
+    margin-bottom: 20px;
+  }
+  .features_class{
+    width: 100vw;
+    position: relative;
+    top: -50px;
+    /* background-color: chocolate; */
+
+  }
+  .features_classroom_Line{
+    margin-bottom: 30px;
+  }
+  .features_classroom_Line2{
+    margin-top: 30px;
+  }
+  .cardDetails {
+    display: flex;
+    /* gap: 20px; */
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; 
+  
+    padding: 1rem;
+    /* background-color: blue; */
+  }
+  .classroom_h2{
+    /* background-color: blue; */
+    line-height: 25px;  
+    height: 40px;
+
+  }
+}

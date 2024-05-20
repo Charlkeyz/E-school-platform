@@ -1,0 +1,139 @@
+.container {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+   
+
+}
+.headerSearch {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.logo {
+    width: 261px;
+    height: 60px;
+    
+}
+
+.logo p {
+   width: 75px;
+   height: 40px;
+   top: 17px;
+   left: 93px; 
+   position: absolute;
+   line-height: 40px;
+   color: orange;
+   font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.searchBox {
+    width: 544px;
+    height: 40px;
+    border-radius: 8px;
+    
+    display: flex;
+    background-color: #F5F5F5;
+}
+
+.searchBox span {
+    width: 48px;
+    height: 35px;
+    padding-top: 5px;
+    border-radius: 6px;
+    color: rgb(255, 136, 0);
+}
+
+
+.searchBox input {
+    width: 544px;
+    height: 35px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.searchBox ::placeholder {
+    width: 298px;
+    height: 22.5px;
+    top: 8.75px;
+    left: 40px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22.5px;
+}
+
+.status {
+    padding-top: 10px;
+    /* padding-left: 50px; */
+    width: 347px;
+    height: 60px;
+    left: 1093px;
+    display: flex;    
+   
+}
+
+.status .country {
+    padding-top: 10px;
+    width: 40px;
+    height: 40px;
+    top: 10px;
+    left: 56px;
+    border-radius: 50px;
+}
+
+.status .notification {
+    padding-top: 10px;
+    width: 40px;
+    height: 40px;
+    top: 10px;
+    left: 104px;
+    border-radius: 50px;
+}
+
+.acctOwner {
+    
+    display: flex;
+    width: 174px;
+    height: 60px;
+    left: 152px; 
+    gap: 10px;   
+}
+
+.acctOwner img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: 2px;
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    width: 82px;
+    height: 44px;
+    top: 3px;
+    left: 48px;
+    gap: 2px;
+}
+
+.detail .acctTitle, .acctType {
+    width: 70px;
+    height: 24px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.acctTitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.acctType {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    
+}

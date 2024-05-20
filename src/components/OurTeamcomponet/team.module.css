@@ -1,0 +1,108 @@
+.team_container {
+  width: 100%;
+  margin-bottom: 2rem;
+  background-color: #ccdad1;
+}
+/* .teamheading {
+  padding: 2rem;
+} */
+.teamheading h1 {
+  font-family: "Plus Jakarta Sans";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.mobileAllimageteam{
+  display: none;
+}
+.teamheading p {
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.allimageteam {
+  width: 100%;
+
+  padding: 2rem;
+  /* background-color: orangered; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.img_container {
+  width: 300px;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0px 13px 19px 0px #00000012;
+}
+.inner {
+  padding: 1rem;
+}
+.inner h3 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: "Plus Jakarta Sans";
+  font-size: 20px;
+  font-weight: 600;
+
+  letter-spacing: 0em;
+  text-align: center;
+}
+.inner p {
+  text-align: center;
+
+  font-family: "Plus Jakarta Sans";
+  font-size: 13px;
+  font-weight: 400;
+
+  letter-spacing: 0em;
+  text-align: center;
+}
+.hide_img_container{
+  display: none;
+}
+.image {
+  border-radius: 20px 20px 0px 0px;
+}
+@media screen and (max-width: 760px) {
+  .allimageteam{
+    display: none;
+  }
+  .mobileAllimageteam{
+    width: 100%;
+    padding: 2rem;
+    /* background-color: orangered; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .sliderbar.active{
+    background-color: grey;
+  }
+  .slide_dots{
+    display: flex;
+    gap: 15px;
+  }
+  .sliderbar {
+    width: 10px;
+    border-radius: 100px;
+    height: 10px;
+    background-color: #0a0f29;
+    cursor: pointer;
+  }
+
+}

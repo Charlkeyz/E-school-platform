@@ -1,0 +1,64 @@
+.info_container2 {
+  /* background-color: brown; */
+  width: 90%;
+  height: 50vh;
+  padding: 2rem;
+}
+
+.info_container li {
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  list-style: none;
+  margin-top: 19px;
+}
+
+.listinfodetails span {
+  margin-right: 10px;
+}
+.contact_style h1 {
+  font-family: "Plus Jakarta Sans";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0em;
+}
+.contact_style p {
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
+
+@media screen and (max-width: 760px) {
+  .info_container2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%;
+    /* background-color: red; */
+
+
+  }
+  .contact_style {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+  .contact_style p {
+    width: 100%;
+    
+  }
+  .listinfodetails{
+    position: relative;
+    left: 0px;
+    /* background-color: red; */
+    top: 30px;
+
+  }
+}

@@ -1,0 +1,93 @@
+.features_container {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* background-color: orangered; */
+
+  padding: 2rem;
+}
+.imgfeatures2 {
+  width: 70%;
+  /* background-color: black; */
+}
+.Feature2_container_flex {
+  /* background-color: aqua; */
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  gap: 100px;
+  padding: 2rem;
+}
+.imgfeaturesimg {
+  width: 100%;
+  /* background-color: olive; */
+}
+
+.Feature2_container_flex_h2 {
+  margin-bottom: 20px;
+
+  font-family: "Plus Jakarta Sans";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+}
+.Feature2_container_flex_des {
+  font-family: "Plus Jakarta Sans";
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  margin-bottom: 20px;
+}
+.features_classroom_Line {
+  width: 120px;
+  height: 7px;
+  margin-bottom: 15px;
+  background-color: #ccdad1;
+}
+.features_classroom_Line2 {
+  width: 120px;
+  height: 7px;
+  top: 10%;
+  left: 70%;
+  position: relative;
+  background-color: #ccdad1;
+}
+@media screen and (max-width: 760px) {
+  .features_container_classroom {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .classroom_desc {
+    margin-bottom: 20px;
+  }
+  .Feature2_container_flex {
+    /* background-color: #0a0f29; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .features_classroom_Line,
+  .features_classroom_Line2 {
+    display: none;
+  }
+  .imgfeatures2 {
+    width: 100%; 
+    /* background-color: black; */
+  }
+  
+  
+}
+

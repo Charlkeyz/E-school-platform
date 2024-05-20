@@ -1,0 +1,78 @@
+.Accordion {
+    
+    gap: 17px;
+    padding: 14px 16px; 
+    border-width: 0.6px;
+    justify-content: center;
+    
+    
+}
+.accordionHeader {
+    border: 2px solid rgb(195, 195, 195);
+    background-color: rgb(207, 207, 207);
+    padding: 13.819578170776367px;
+    cursor: pointer;
+}
+.accordionHeaderDark {
+    background-color: rgb(3, 11, 57) !important;
+    color: white
+}
+
+.accordionHeader h5 {
+    font-family:  "Plus Jakarta Sans", sans-serif;
+    font-weight: 400px;
+    font-stretch: normal;
+    line-height: 24px;
+    font-size: 16px;
+    width: 495px;
+}
+
+.accordionBody {
+    gap: 16.5px;
+    display: flex;
+    flex-direction: column;
+    /* border-width: 0.6px; */
+    justify-content: center;
+    background-color: white;
+    border: 2px solid rgb(195, 195, 195);
+    margin-top: -2px;
+    
+}
+
+.accordionBody p {
+    font-family:  "Plus Jakarta Sans", sans-serif;
+    /* width: 415px; */
+    height: auto;
+    margin: 5px 50px 1px;
+    line-height: 24px;
+    font-stretch: normal;
+}
+@media screen and (max-width: 760px) {
+    .Accordion {
+        display: flex;
+        flex-wrap: wrap;
+        /* background-color: red; */
+        width: 100vw;
+        position: relative;
+        left: -60%;
+    }
+    
+    .accordionBody p {
+        margin: 0px;
+        padding: 5px;
+    }
+    .accordionHeader{
+        width: 100%;
+    
+    }
+    .accordionHeader h5 {
+        font-family:  "Plus Jakarta Sans", sans-serif;
+        font-weight: 400px;
+        font-stretch: normal;
+        line-height: 24px;
+        font-size: 16px;
+        width: 100%;
+    }
+}
+    
+

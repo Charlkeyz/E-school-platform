@@ -1,0 +1,85 @@
+.main_container {
+  width: 100%;
+  height: 100vh;
+  background-image: url("/ContentImage/homepage1.webp");
+  background-position: center;
+  /* background-size: 100% 100%; */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.homepageDetail_container {
+  position: absolute;
+  top: 65%;
+  left: 28%;
+  transform: translate(-50%, -50%);
+  /* background-color: blue; */
+  width: 45%;
+  height: 60vh;
+  padding: 1rem;
+}
+.welcome {
+  text-transform: capitalize;
+  color: white;
+  font-size: 24px;
+  line-height: 40px;
+  color: white;
+  margin-bottom: 10px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.gateway {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0em;
+  color: white;
+}
+.education {
+  margin-top: 5px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  color: white;
+}
+.responsiveBtn_login{
+  display: none;
+}
+@media screen and (max-width: 760px) {
+  .main_container {
+    width: 100%;
+    height: 100vh;
+  }
+  .homepageDetail_container{
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    /* background-color: red; */
+    
+  }
+  .gateway{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+  }
+  .education{
+    margin-top: 5px;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+  }
+  .welcome{
+    text-transform: capitalize;
+    font-size: 34px;
+    margin-bottom: 10px;
+  }
+  .responsiveBtn{
+    display: none;
+  }
+  .responsiveBtn_login{
+    display: flex;
+  }
+}

@@ -1,0 +1,43 @@
+.serviceContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.service_backgroundImage {
+  border: 1px solid black;
+  background: url("/E-school_servicepage_images/young-student-working-assignment\ \(5\)\ 3.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+}
+.text {
+  position: relative;
+  top: 30%;
+  left: 5%;
+  width: 563px;
+  height: 160px;
+  color: white;
+  font-family: "Plus Jakarta Sans";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 40px;
+}
+@media screen and (max-width: 760px) {
+    .serviceContainer{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;    
+        /* background-color: blue; */
+    }
+    .text {
+      width: 100%;
+      left: 0px;
+      font-size: 20px;
+      padding: 10px;
+    }
+  }
