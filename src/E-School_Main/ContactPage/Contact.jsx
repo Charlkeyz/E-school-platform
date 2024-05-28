@@ -125,7 +125,7 @@ const Contact = () => {
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
-                  marginTop: "70px"
+                  marginTop: "40px"
                 }}
               >
                 Send{" "}
