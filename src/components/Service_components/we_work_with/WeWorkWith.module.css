@@ -48,6 +48,7 @@
         /* flex-wrap: nowrap; */
         width: 100vw;
         gap: 15px;
+        overflow: hidden;
     }
     .we_work_with_section{
         
@@ -65,6 +66,7 @@
         gap: 20px;  
         /* background-color: red; */
         text-align: center;
+       
     }
     .we_work_with img{
        position: relative;
