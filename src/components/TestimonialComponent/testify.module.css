@@ -1,5 +1,5 @@
 .testify_secection_container {
-  width: 100%;
+  width: 100vw;
   /* height: 70vh; */
   background-color: #ccdad1;
   padding: 64px, 121px, 64px, 121px;
@@ -8,35 +8,23 @@
   margin-bottom: 2rem;
   gap: 20px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
+
 }
 .testimonaildeatils_flex {
   display: flex;
   gap: 20px;
-  width: 100%;
+  /* width: 100vw; */
   justify-content: center;
   padding: 2rem;
   align-items: center;
   flex-wrap: wrap;
   /* background-color: blue; */
 }
-.carousel_slider{
-  background-color: red;
-  width: 50%;
-  
-}
-.next_prev{
-  display: flex;
-  justify-content: space-between;
-  position: relative;
-  top: -120px;
-  gap: 370px;
-}
-.mobileViewTestimonial{
-  display: none;
-}
+
 
 .info_box {
   width: 370px;
@@ -47,13 +35,11 @@
   background-color: #fafcff;
   display: flex;
   flex-direction: column;
-  flex: 0 0 auto;
+  /* flex: 0 0 auto; */
   /* opacity: 0; */
   /* transition: opacity 0.5s ease; */
 }
-.active_info_box{
-  opacity: 1;
-}
+
 .persondetails_box {
   padding: 1rem;
   display: flex;
@@ -102,33 +88,57 @@
   background-color: #0a0f29;
   cursor: pointer;
 }
-.slide_dots{
-  position: relative;
-  top: 20px;
-  display: flex;
-  gap: 5px;
-}
-.active{
-  background-color: grey;
-}
+
+
+
+/* .slick-initialized div{
+  margin: 0px 7px;
+  padding: 7px;
+  background-color: red;
+} */
+
 @media screen and (max-width: 760px) {
-  .info_box{
-    /* background-color: red; */
+  .info_box {
     width: 100%;
+    border: 1px solid black;
     height: 100%;
-  }
-  .testimonaildeatils_flex{
-    display: none;
-  }
-  .mobileViewTestimonial{
+    padding: 0px, 0px, 0px, 0px;
+    border-radius: 8px;
+    background-color: #fafcff;
     display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-  /* background-color: blue; */
+    flex-direction: column;
+    /* flex: 0 0 auto; */
+    /* opacity: 0; */
+    /* transition: opacity 0.5s ease; */
   }
-  .hide_box{
-    display: none;
+  .reviews_info p {
+    font-family: "Plus Jakarta Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: "justified";
+    padding: 0rem;
   }
+  .infoStyle p {
+    font-family: "Plus Jakarta Sans";
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+  }
+  .infoStyle h1 {
+    font-family: "Plus Jakarta Sans";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+  }
+  
+  .testify_secection_container {
+    width: 100vw;
+    background-color: white;
+    /* overflow: hidden; */
+  }
+  
 }
